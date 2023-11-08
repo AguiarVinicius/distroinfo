@@ -1,0 +1,2 @@
+# distroinfo
+DISTRIBUIDORA DE INFORMATICA 
