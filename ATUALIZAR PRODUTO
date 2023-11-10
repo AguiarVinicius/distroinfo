@@ -1,0 +1,26 @@
+#ATUALIZAR PRODUTO 
+
+
+
+# def para atualizar a informaçoes do produto
+
+#chamando o modulo de produtos para receber a lista
+produtos_nome = cadastro.produto_cad()
+
+def atualizarproduto ():
+    atualizar = int(input("Qual produto quer atualizar"))
+
+    for _ in produtos_nome:
+        if produto_cad["codigo"] == atualizar:
+            informacao_atualizar = input("Qual informação gostaria de atualizar: ")
+            nova_informacao = input("Qual novo valor ")
+
+            produto[informacao_atualizar] = nova_informacao
+
+            print(f"{informacao_atualizar}Atualizado com sucesso. ")
+            return
+    print("Produto nao encontrado ")
+
+
+
+
